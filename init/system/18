@@ -1,0 +1,3 @@
+# grab the pid of the sshd by using : ps aux | grep sshd
+
+kill <pid_of_ssh>

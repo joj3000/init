@@ -1,0 +1,1 @@
+awk -F : '/home/ {print $1 }' /etc/passwd

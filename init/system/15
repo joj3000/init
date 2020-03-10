@@ -1,0 +1,5 @@
+# if only one process is named name_of_process is running on the background
+kill name_of_process
+
+# otherwise, more specifically (use ps to get pid of process)
+kill pid_of_process

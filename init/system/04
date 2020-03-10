@@ -1,0 +1,5 @@
+# Time at the moment it was last booted
+who -b
+
+# How long the system has been running since last booted
+uptime -s

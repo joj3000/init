@@ -1,0 +1,14 @@
+# traceroute slash16.org 
+#
+# 1  10.113.254.254 (10.113.254.254)  0.693 ms  0.304 ms  0.382 ms
+# 2  192.168.0.2 (192.168.0.2)  0.360 ms  0.323 ms  0.324 ms
+# 3  nat (10.90.1.11)  0.126 ms  0.173 ms  0.194 ms
+# 4  64.62.224.30 (64.62.224.30)  0.836 ms  0.832 ms  0.780 ms
+#
+# 1 : Local IP
+# 2 : Local IP of the router
+# 2 : NAT IP (the NAT router remaps the local IP to a public IP)
+# 4 : Public IP
+#
+# le serveur qui fait le lien entre le reseau local et l'exterieur est le serveur NAT
+# NAT = Network Address Translation

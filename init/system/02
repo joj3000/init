@@ -1,0 +1,15 @@
+# Method 1 (non-permanent) :
+hostname the_new_name
+
+# Method 2 (permanent): 
+#have to install the systemd package before though, with sudo apt install systemd
+
+hostnamectl set-hostname the_new_name
+
+# Method 3 (permanent):
+ sudo su
+ hostname the_new_name
+ vim /etc/hostname
+	# replace (if there is) the old name with new name 
+ vim /etc/hosts
+	# replace (if there is) the old name with new name

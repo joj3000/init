@@ -1,0 +1,5 @@
+~/.ssh
+# by default it contains 2 keys named id_rsa (private key) and id_rsa.pub (public key)
+
+# otherwise it is contained in
+~/.ssh/authorized_keys

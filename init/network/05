@@ -1,0 +1,1 @@
+ping -c 1 slash16.org | sed -n '1p' | awk '{print $3}'| cut -c 2- | rev | cut -c 3- | rev

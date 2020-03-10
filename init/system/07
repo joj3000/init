@@ -1,0 +1,8 @@
+# open a ssh with a hostname/ip
+
+# either
+sudo service sshd status | grep pid | awk '{print $3}' | rev | cut -c 2- | rev
+
+# or
+cat /var/run/sshd.pid
+

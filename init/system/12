@@ -1,0 +1,4 @@
+# h - print sizes in a human-readable format (h)
+# d - depth max reach
+
+du -h -d 1 /var

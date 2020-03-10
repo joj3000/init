@@ -1,0 +1,2 @@
+# adresses given by this command :
+# whois slash16.org | grep "Name Server: " | head -4

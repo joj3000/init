@@ -1,0 +1,9 @@
+# systemctl is the central management utility that controls the systemd system, 
+# manages the services and examine the system state
+
+systemctl list-unit-files --type=service | grep enabled | awk -F'.service' '{print $1}'
+
+# -F : field separator
+# print $1 : number of field separator to avoid (here 1)
+
+# they are called "Daemon"
